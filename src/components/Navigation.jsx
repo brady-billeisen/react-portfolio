@@ -3,11 +3,11 @@ import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-dark bg-dark">
         <Container>
             <NavbarBrand>
                 <Link to='/'>
-                    <h1 className="text-dark fs-3">Brady Billeisen</h1>
+                    <h1 className="text-light fw-bold fs-3">Brady Billeisen</h1>
                 </Link>
             </NavbarBrand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

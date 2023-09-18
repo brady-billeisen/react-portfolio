@@ -5,8 +5,10 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Separation from './components/Separation';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route element={<Resume />} path='/resume'/>
         <Route element={<Contact />} path='/contact'/>
       </Routes>
+      <Separation />
+      <Footer />
     </Router>
   )
 }
