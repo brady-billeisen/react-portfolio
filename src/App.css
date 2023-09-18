@@ -45,6 +45,17 @@
   background-color: black !important;
 }
 
+#home-captions {
+  background-color: black;
+  opacity: 0.8;
+}
+
+#carousel-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 #footer {
   background-color: #84C0C6;
 }
