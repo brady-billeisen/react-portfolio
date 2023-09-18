@@ -45,6 +45,20 @@
   background-color: black !important;
 }
 
+#page-header {
+  border-bottom: 3px solid #84C0C6;
+  width: 90%;
+}
+
+#navbar {
+  background-color: #161a1d !important;
+}
+
+.nav-links {
+  display: flex !important;
+  justify-content: end !important;
+}
+
 #home-captions {
   background-color: black;
   opacity: 0.8;
@@ -58,4 +72,21 @@
 
 #footer {
   background-color: #84C0C6;
+}
+
+#footer-link {
+  color: #46B1C9;
+  font-weight: bold;
+}
+
+#footer-link:hover {
+  color: #84C0C6;
+}
+
+#headshot {
+  margin: 50px;
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }

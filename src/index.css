@@ -27,10 +27,12 @@ a {
 }
 a:hover {
   color: #46B1C9;
+  border-bottom: 4px solid #84C0C6;
+  transition: 500ms;
 }
 
 body {
-  background-color: #161a1d;
+  background-color: #212529;
   margin: 0;
   display: flex;
   place-items: center;
