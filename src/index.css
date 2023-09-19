@@ -28,7 +28,7 @@ a {
 a:hover {
   color: #84C0C6;
   border-bottom: 4px solid #84C0C6;
-  transition: 500ms;
+  transition: 400ms;
 }
 
 body {
@@ -64,7 +64,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -75,7 +75,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 img {
   width: 30px;

@@ -7,6 +7,7 @@ function Footer() {
     <Nav className="me-auto" id='navbar'>
         <Container>
             <Container className='d-flex justify-content-center mt-4 mb-4'>
+                <Link to='/' style={{ margin: "0 4px" }} id='footer-link'>Home</Link>
                 <Link to='/about' style={{ margin: "0 4px" }} id='footer-link'>About</Link>
                 <Link to='/portfolio' style={{ margin: "0 4px" }} id='footer-link'>Portfolio</Link>
                 <Link to='/resume' style={{ margin: "0 4px" }} id='footer-link'>Resume</Link>

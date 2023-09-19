@@ -3,11 +3,11 @@ import headshot from '../images/headshot.jpg'
 
 function About() {
   return (
-    <main>
+    <>
+      <Container className='d-flex' id='page-header'>
+        <h1 className='text-light m-4'>About Me</h1>
+      </Container>
       <Container>
-        <Container className='d-flex' id='page-header'>
-          <h1 className='text-light m-4'>About Me</h1>
-        </Container>
         <Container className='d-flex justify-content-center'>
           <img src={headshot} id='headshot' />
         </Container>
@@ -32,7 +32,7 @@ function About() {
           </p>
         </Container>
       </Container>
-    </main>
+    </>
   )
 }
 

@@ -5,14 +5,11 @@ import Col from 'react-bootstrap/Col';
 
 function Resume() {
   return (
-    <main>
+    <>
+      <Container className='d-flex' id='page-header'>
+        <h1 className='text-light m-4'>Resume</h1>
+      </Container>
       <Container>
-        <Container className='d-flex' id='page-header'>
-          <h1 className='text-light m-4'>Resume</h1>
-        </Container>
-        <Container className='d-flex justify-content-start mt-5'>
-          <h2 className='text-light'>Skills:</h2>
-        </Container>
         <Container className='mt-5 mb-5'>
           <Row className='d-flex justify-content-center'>
               <Col xs={6} md={4} className='skills fw-bold'>Programming Languages:</Col>
@@ -56,10 +53,10 @@ function Resume() {
           </Row>
         </Container>
         <Container className='d-flex justify-content-center'>
-          <p className='text-light mt-5 mb-5' id='resume-download'>Download my <a href={resume} id='resume'>Resume</a></p>
+          <p className='text-light mt-5 mb-5' id='resume-download'>Download full <a href={resume} id='resume'>Resume</a></p>
         </Container>
       </Container>
-    </main>
+    </>
   )
 }
 

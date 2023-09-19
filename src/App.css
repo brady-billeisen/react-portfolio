@@ -114,3 +114,14 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+.custom-card {
+  background-color: #161a1d !important;
+  overflow: hidden;
+  border: none;
+  transition: transform 0.3s;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
