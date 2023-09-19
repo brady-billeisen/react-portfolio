@@ -96,3 +96,21 @@
   display: flex;
   justify-content: center;
 }
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  color: #84C0C6;
+}
+
+#resume {
+  background-color: #161a1d;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#resume-download {
+  background-color: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+}

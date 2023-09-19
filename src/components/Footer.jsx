@@ -13,7 +13,7 @@ function Footer() {
                 <Link to='/contact' style={{ margin: "0 4px" }} id='footer-link'>Contact</Link>
             </Container>
             <Container className='pb-5'>
-                <p className='d-flex justify-content-center text-light m-4'>This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature. - Don DeLillo (Author)</p>
+                <p className='d-flex justify-content-center text-light m-4'>The number one benefit of information technology is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential. - Steve Ballmer</p>
             </Container>
         </Container>
     </Nav>
