@@ -26,8 +26,9 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #84C0C6;
-  border-bottom: 4px solid #84C0C6;
+  color: #84C0C6 !important;
+  /* border-bottom: 4px solid #84C0C6; */
+  filter: drop-shadow(0 0 2em #84C0C6);
   transition: 400ms;
 }
 

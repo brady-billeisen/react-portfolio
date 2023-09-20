@@ -6,7 +6,7 @@ import JATE from '../images/J-A-T-E.png'
 function Home() {
     return (
     <>
-      <Carousel>
+      <Carousel className='carousel fade-in'>
         <Carousel.Item>
           <img src={granularGarden} id='carousel-img' />
           <Carousel.Caption id='home-captions'>

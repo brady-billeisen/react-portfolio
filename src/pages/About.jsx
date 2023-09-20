@@ -4,14 +4,14 @@ import headshot from '../images/headshot.jpg'
 function About() {
   return (
     <>
-      <Container className='d-flex' id='page-header'>
+      <Container className='d-flex fade-in' id='page-header'>
         <h1 className='text-light m-4'>About Me</h1>
       </Container>
       <Container>
-        <Container className='d-flex justify-content-center'>
+        <Container className='d-flex justify-content-center fade-in'>
           <img src={headshot} id='headshot' />
         </Container>
-        <Container className='text-light'>
+        <Container className='text-light fade-in'>
           <p className='about-me mb-4'>
           Hello! I'm Brady Billeisen, a passionate software engineer who embarked on a coding journey that began in the heart of Indianapolis, IN and led me to the vibrant city of Nashville, TN.
           </p>
