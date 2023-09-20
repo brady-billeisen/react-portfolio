@@ -13,6 +13,12 @@ This is a single-page application portfolio for myself (a web developer). It sho
 - Navigate through the portfolio using the navigation links in the header.
 - Explore my projects in the "Portfolio" section, which includes links to both deployed applications and GitHub repositories.
 - Contact me using the "Contact" form or LinkedIn, and ensure that all required fields are filled out.
+## Visuals
+![Portfolio Screenshot](./src/images/portfolio-home.png)
+![Portfolio Screenshot](./src/images/portfolio-about-me.png)
+![Portfolio Screenshot](./src/images/portfolio-projects.png)
+![Portfolio Screenshot](./src/images/portfolio-resume.png)
+![Portfolio Screenshot](./src/images/portfolio-contact.png)
 ## Questions
 If you have any questions about this application feel free to reach out:
 - Email: [bradybill32@gmail.com](mailto:bradybill32@gmail.com)
@@ -20,3 +26,6 @@ If you have any questions about this application feel free to reach out:
 - LinkedIn: [Brady Billeisen](https://www.linkedin.com/in/brady-billeisen)
 
 - GitHub: [Brady Billeisen](https://github.com/brady-billeisen)
+## Application
+- [Deployed Application](https://bradybilleisenportfolio.netlify.app/)
+- [GitHub Repository](https://github.com/brady-billeisen/react-portfolio)
