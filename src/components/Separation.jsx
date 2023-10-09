@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 function Separation() {
   return (
-    <div className="pt-2 pb-2" id="footer">
+    <div className="pt-2 pb-2 footer">
         <Nav className="p-2">
           <Container className="d-flex justify-content-start align-items-center">
             <h2 className="d-flex justify-content-start text-light">Portfolio</h2>

@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 function Portfolio() {
   return (
     <>
-      <Container className='d-flex fade-in' id='page-header'>
+      <Container className='d-flex fade-in page-header'>
         <h1 className='text-light m-4'>Projects</h1>
       </Container>
       <Container>

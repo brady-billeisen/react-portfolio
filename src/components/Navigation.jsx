@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="navbar-dark" id='navbar'>
+    <Navbar expand="lg" className="navbar-dark navbar">
         <Container className='d-flex m-2'>
             <NavbarBrand>
                 <Link to='/'>

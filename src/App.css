@@ -46,12 +46,12 @@
   background-color: black !important;
 }
 
-#page-header {
+.page-header {
   border-bottom: 2px solid #46B1C9;
   width: 90%;
 }
 
-#navbar {
+.navbar {
   background-color: #161a1d !important;
 }
 
@@ -60,7 +60,7 @@
   justify-content: end !important;
 }
 
-#home-captions {
+.home-captions {
   background-color: black;
   opacity: 0.9;
   visibility: hidden;
@@ -69,33 +69,33 @@
   transform: translateY(100%);
 }
 
-.carousel:hover #home-captions{
+.carousel:hover .home-captions{
   visibility: visible;
   border-radius: 15px;
   transform: translateY(0);
 }
 
-#carousel-img {
+.carousel-img {
   height: 400px;
   width: 100%;
   object-fit: cover;
 }
 
-.carousel:hover #carousel-img {
+.carousel:hover .carousel-img {
   filter: blur(3px);
   transition: 1s;
 }
 
-#footer {
+.footer {
   background-color: #84C0C6;
 }
 
-#footer-link {
+.footer-link {
   color: #46B1C9;
   font-weight: bold;
 }
 
-#footer-link:hover {
+.footer-link:hover {
   color: #84C0C6;
 }
 
@@ -140,6 +140,7 @@
 .custom-card:hover {
   transform: scale(1.05);
   border: solid #84C0C6;
+  filter: drop-shadow(0 0 1em #84C0C6);
   background-image: none !important;
   background-color: #161a1d !important;
   transition: 1s;

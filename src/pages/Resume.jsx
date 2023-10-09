@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 function Resume() {
   return (
     <>
-      <Container className='d-flex fade-in' id='page-header'>
+      <Container className='d-flex fade-in page-header'>
         <h1 className='text-light m-4'>Resume</h1>
       </Container>
       <Container>

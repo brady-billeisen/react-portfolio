@@ -36,7 +36,7 @@ function Contact() {
 
   return (
     <>
-      <Container className='d-flex fade-in' id='page-header'>
+      <Container className='d-flex fade-in page-header'>
         <h1 className='text-light m-4'>Contact</h1>
       </Container>
       <Container className='fade-in'>
