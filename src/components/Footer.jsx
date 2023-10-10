@@ -11,7 +11,6 @@ function Footer() {
                 <Link to='/about' style={{ margin: "0 4px" }} className='footer-link'>About</Link>
                 <Link to='/portfolio' style={{ margin: "0 4px" }} className='footer-link'>Portfolio</Link>
                 <Link to='/resume' style={{ margin: "0 4px" }} className='footer-link'>Resume</Link>
-                <Link to='/contact' style={{ margin: "0 4px" }} className='footer-link'>Contact</Link>
             </Container>
             <Container className='pb-5'>
                 <p className='d-flex justify-content-center text-light m-4'>

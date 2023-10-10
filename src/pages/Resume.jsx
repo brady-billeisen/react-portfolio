@@ -53,7 +53,7 @@ function Resume() {
           </Row>
         </Container>
         <Container className='d-flex justify-content-center fade-in'>
-          <p className='text-light mt-5 mb-5' id='resume-download'>Download full <a href={resume} id='resume'>Resume</a></p>
+          <p className='text-light mt-5 mb-5' id='resume-download'>Download my full <a href={resume} id='resume'>Resume</a> for all my contact info, as well as my work experience!</p>
         </Container>
       </Container>
     </>

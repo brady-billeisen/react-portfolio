@@ -1,9 +1,8 @@
-import './App.css'
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
@@ -19,7 +18,6 @@ function App() {
         <Route element={<About />} path='/about'/>
         <Route element={<Portfolio />} path='/portfolio'/>
         <Route element={<Resume />} path='/resume'/>
-        <Route element={<Contact />} path='/contact'/>
       </Routes>
       <Separation />
       <Footer />
