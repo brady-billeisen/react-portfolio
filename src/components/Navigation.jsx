@@ -14,8 +14,7 @@ function Navigation() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-2 d-flex justify-content-end">
                     <Container className="d-flex justify-content-end align-items-center">
-                        <Link to='/' className='m-2'>Home</Link>
-                        <Link to='/about' className='m-2'>About</Link>
+                        <Link to='/' className='m-2'>About</Link>
                         <Link to='/portfolio' className='m-2'>Portfolio</Link>
                         <Link to='/resume' className='m-2'>Resume</Link>
                     </Container>
